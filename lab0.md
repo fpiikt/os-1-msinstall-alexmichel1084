@@ -1,24 +1,24 @@
 # Отчет по Лабораторной работе №0 «Создание скрипта для автоматизации установки под Windows»
 ## Выполнил студент: Михайлов А.И. Группа P3321
-### 7-zip
+###  7-zip
 `msiexec /i 7zipx64.msi /le "7zip-log.txt" /passive /norestart TARGETDIR="C:\Program Files\7-Zip"`
 
-### Paint.NET
+###  Paint.NET
 `msiexec paintx64.net.exe /auto TARGETDIR="C:\Program Files\Graphics\Paint" DESKTOPSHORTCUT=1`
 
-### Inkscape
+###  Inkscape
 `msiexec /i inkscape-x64.msi /le "inkscape-log.txt" /qr /norestart TARGETDIR="C:\Program Files\Graphics\Inkscape"`
 
-### LibreOffice
+###  LibreOffice
 ```
 msiexec /i LibreOffice.msi /le "libreoffice-install-log.txt"  /passive /norestart
 msiexec /i LibreOffice_helppack_ru.msi /le+ "libreoffice-install-log.txt" /passive /forcerestart
 ```
 
-### Notepad++
+###  Notepad++
 `msiexec /i Notepad++7.7.msi /quiet`
 
-### JRE
+###  JRE
 ```
 msiexec /i Notepad++.msi /quiet
     
